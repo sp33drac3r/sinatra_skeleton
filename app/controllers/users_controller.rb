@@ -1,9 +1,9 @@
 get '/signup' do
-  erb :"users/sign_up_or_login", layout: !request.xhr?
+  erb :"/users/sign_up_or_login", layout: !request.xhr?
 end
 
 get '/login' do
-  erb :"users/sign_up_or_login", layout: !request.xhr?
+  erb :"/users/sign_up_or_login", layout: !request.xhr?
 end
 
 get '/logout' do
